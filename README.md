@@ -54,6 +54,8 @@ Tracks which books are issued to which members.
 | return_date | DATE         | When the book was returned     |
 
 ---
+### ER Diagram
+![ER Diagram]
 
 ## SQL Operations
 
