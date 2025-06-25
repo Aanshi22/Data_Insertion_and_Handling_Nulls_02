@@ -66,9 +66,9 @@ Tracks which books are issued to which members.
 
 ### Update Operations
 sql
-`UPDATE Members SET email = 'updated@example.com' WHERE member_id = 5;
-UPDATE BooksIssued SET return_date = '2024-06-28' WHERE issue_id = 105;`
+`UPDATE Members SET email = 'updated@example.com' WHERE member_id = 5;`
+`UPDATE BooksIssued SET return_date = '2024-06-28' WHERE issue_id = 105;`
 ### Delete operations 
 sql 
-`DELETE FROM Members WHERE member_id = 10;
-DELETE FROM BooksIssued WHERE issue_id = 110;`
+`DELETE FROM Members WHERE member_id = 10;`
+`DELETE FROM BooksIssued WHERE issue_id = 110;`
